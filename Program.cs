@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Net;
 using System.Windows.Forms;
 using System.Diagnostics;
-// Wrote by 7empest#0001
+// Wrote by 7empest
 namespace _7EMPEST
 {
     class Program
